@@ -550,17 +550,15 @@ h1{
 }
 
 .footer img{
-
-    width:70px;
-
-    height:70px;
-
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 18px;
     border-radius:50%;
-
-    margin-bottom:15px;
-
+    background:#fff;
+    padding:6px;
 }
-
 .footer h3{
 
     color:var(--gold);
@@ -581,26 +579,6 @@ h1{
 
     color:#777;
 
-}
-/* =========================
-   FADE ANIMATION
-========================= */
-
-.fade-in{
-
-    opacity:0;
-
-    transform:translateY(40px);
-
-    transition:all .8s ease;
-
-}
-
-.fade-in.show{
-
-    opacity:1;
-
-    transform:translateY(0);
 
 }
 /* =========================
